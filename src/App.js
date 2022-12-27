@@ -1,10 +1,11 @@
 import React from 'react'
-import Profile from './components/Profils/Profile'
+import UserCv from './components/userCv/UserCv';
+
 
 function App() {
   return (
     <div>
-      <Profile/>
+      <UserCv/>
     </div>
   )
 }
