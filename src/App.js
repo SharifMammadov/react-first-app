@@ -1,13 +1,12 @@
-import "./App.css";
-const language  ="English";
+import React from 'react'
+import Profile from './components/Profils/Profile'
+
 function App() {
   return (
-    <div className="App">
-      <p>Dil: {language}
-        
-      </p>
+    <div>
+      <Profile/>
     </div>
-  );
+  )
 }
 
 export default App;
